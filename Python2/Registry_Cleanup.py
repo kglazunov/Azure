@@ -17,7 +17,7 @@ from requests.auth import HTTPBasicAuth
 import argparse
 
 # Get credential for Automation Account
-cred = automationassets.get_automation_credential("***REMOVED***")
+cred = automationassets.get_automation_credential("CHANGE_ME")
 user = cred["username"]
 password = cred["password"]
 
